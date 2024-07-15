@@ -6,7 +6,7 @@ class ConfigHandler {
 	 * Load configurations
 	 *
 	 * @param {String} configName The configuration name
-	 * @returns {import("pg-diff-api/src/models/config")} Return the specified configuration
+	 * @returns {import("@deplorable/postgres-diff-api/src/models/config")} Return the specified configuration
 	 */
 	static LoadConfig(configName, configPath) {
 		const absoluteFilePath = path.resolve(configPath || "pg-diff-config.json");
@@ -17,7 +17,7 @@ class ConfigHandler {
 		let configFile = require(absoluteFilePath);
 		if (!configFile[configName]) throw new Error(`Impossible to find the configuration with name ${configName} !`);
 
-		/** @type {import("pg-diff-api/src/models/config")} */
+		/** @type {import("@deplorable/postgres-diff-api/src/models/config")} */
 		let config = configFile[configName];
 
 		if (!config.sourceClient) throw new Error('The configuration doesn\'t contains the section "sourceClient {object}" !');
@@ -85,7 +85,7 @@ class ConfigHandler {
 	/**
 	 *
 	 * @param {Map<String,String[]>} optionParams
-	 * @param {import("pg-diff-api/src/models/config")} config
+	 * @param {import("@deplorable/postgres-diff-api/src/models/config")} config
 	 */
 	static ValidatePatchFolderOption(optionParams, config) {
 		if (optionParams.has(options.PATCH_FOLDER))

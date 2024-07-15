@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const CLI = require("./src/CLI").CLI;
 const ConfigHandler = require("./src/ConfigHandler").ConfigHandler;
-const PgDiffApi = require("pg-diff-api").PgDiff;
+const PgDiffApi = require("@deplorable/postgres-diff-api").PgDiff;
 const chalk = require("chalk");
 const { Progress } = require("clui");
 const stdout = require("readline");
