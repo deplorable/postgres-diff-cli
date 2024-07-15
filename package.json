@@ -21,7 +21,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"pg-diff": "main.js"
+		"postgress-diff-cli": "main.js"
 	},
 	"keywords": [
 		"pg",
