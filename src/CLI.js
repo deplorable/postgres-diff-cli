@@ -26,7 +26,7 @@ class CLI {
 		log();
 		log();
 		log(chalk.magenta("=============================="));
-		log(chalk.magenta("===   pg-diff-cli   HELP   ==="));
+		log(chalk.magenta("===   postgres-diff-cli   HELP   ==="));
 		log(chalk.magenta("=============================="));
 		log();
 		log(chalk.gray("OPTION                      \t\tDESCRIPTION"));
@@ -48,15 +48,15 @@ class CLI {
 		);
 		log();
 		log();
-		log(chalk.gray(" TO COMPARE: ") + chalk.yellow("pg-diff ") + chalk.gray("-c ") + chalk.cyan("configuration-name script-name"));
-		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("pg-diff ") + chalk.gray("-c ") + chalk.cyan("development my-script"));
+		log(chalk.gray(" TO COMPARE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-c ") + chalk.cyan("configuration-name script-name"));
+		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-c ") + chalk.cyan("development my-script"));
 		log();
-		log(chalk.gray(" TO MIGRATE: ") + chalk.yellow("pg-diff ") + chalk.gray("[-ms | -mt] ") + chalk.cyan("configuration-name"));
-		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("pg-diff ") + chalk.gray("-ms ") + chalk.cyan("development"));
-		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("pg-diff ") + chalk.gray("-mt ") + chalk.cyan("development"));
+		log(chalk.gray(" TO MIGRATE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("[-ms | -mt] ") + chalk.cyan("configuration-name"));
+		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-ms ") + chalk.cyan("development"));
+		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-mt ") + chalk.cyan("development"));
 		log();
-		log(chalk.gray("TO REGISTER: ") + chalk.yellow("pg-diff ") + chalk.gray("-s ") + chalk.cyan("configuration-name patch-file-name"));
-		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("pg-diff ") + chalk.gray("-s ") + chalk.cyan("development 20182808103040999_my-script.sql"));
+		log(chalk.gray("TO REGISTER: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-s ") + chalk.cyan("configuration-name patch-file-name"));
+		log(chalk.gray("    EXAMPLE: ") + chalk.yellow("postgres-diff-cli ") + chalk.gray("-s ") + chalk.cyan("development 20182808103040999_my-script.sql"));
 		log();
 		log();
 	}
