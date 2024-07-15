@@ -7,7 +7,7 @@
 	"preferGlobal": true,
 	"homepage": "https://michaelsogos.github.io/pg-diff/",
 	"bugs": {
-		"url": "https://github.com/michaelsogos/pg-diff/issues",
+		"url": "https://github.com/deplorable/postgres-diff-cli/issues",
 		"email": "michael.sogos@gurustudioweb.it"
 	},
 	"repository": {
