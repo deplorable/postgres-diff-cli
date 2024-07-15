@@ -45,6 +45,7 @@
 		"@deplorable/postgres-diff-api": "1.4.5"
 	},
         "publishConfig": {
-                "registry": "https://npm.pkg.github.com"
+                "registry": "https://registry.npmjs.com",
+                "access": "public"
         }
 }
