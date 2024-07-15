@@ -1,5 +1,5 @@
 {
-	"name": "pg-diff-cli",
+	"name": "@deplorable/postgres-diff-cli",
 	"version": "2.4.5",
 	"description": "PostgreSQL schema and data comparing tool",
 	"pgver": "9.6+",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/michaelsogos/pg-diff"
+		"url": "https://github.com/deplorable/postgres-diff-cli"
 	},
 	"engines": {
 		"node": ">=8.11.1"
@@ -42,6 +42,9 @@
 		"chalk": "4.1.0",
 		"clui": "0.3.6",
 		"figlet": "1.5.0",
-		"angulion/pg-diff-api": "1.4.5"
-	}
+		"@deplorable/postgres-diff-api": "1.4.5"
+	},
+        "publishConfig": {
+                "registry": "https://npm.pkg.github.com"
+        }
 }
